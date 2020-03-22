@@ -28,7 +28,7 @@ Disassembly and with a little reverse engineering, you find that the signals tha
 
 The ADCs deliver their work to the Pulsus PS9829B audio processor through the following connections:
 
-|PS9229B | DAC        |
+|PS9229B | ADC        |
 |--------|------------|
 |MSDIN0  |AK5384 SDTO1|
 |MSDIN1  |AK5384 SDTO2|
@@ -92,7 +92,7 @@ By tracking tracks and through-hole, the following connections of interest are o
 | Pin 16        | EXT_MUTE      | Pin 32        | VDD           |
 
 P-ON: enables 30V, 5V and 3.3V power
-PDN: Reset of DACs
+PDN: Reset of ADCs
 
 The encoder is used to control the crossover.
 
