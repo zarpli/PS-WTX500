@@ -26,7 +26,7 @@ In the tests, the reading registers of the DAP (PS9829B) was implemented and for
 
 Disassembly and with a little reverse engineering, you find that the signals that arrive from the receiver are analog, each of them reaches an operational amplifier [S4560](datasheet/S4560.pdf), for later be sampled by [AK5384](datasheet/AK5384.pdf) (4 ch) and [AK5381](datasheet/AK5381.pdf) (2 ch).
 
-The CADs deliver their work to the Pulsus PS9829B audio processor through the following connections:
+The ADCs deliver their work to the Pulsus PS9829B audio processor through the following connections:
 
 |PS9229B | DAC        |
 |--------|------------|
