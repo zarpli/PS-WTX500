@@ -39,11 +39,11 @@ The mapping of signal inputs and physical connections is as follows:
 |SDIN                       |   Input Channel linked |
 |---------------------------|------------------------|
 |Left channel from SDIN0    | Front Left             |
-|right channel from SDIN0   | Front Right            |
+|Right channel from SDIN0   | Front Right            |
 |Left channel from SDIN1    | Surround Left          |
-|right channel from SDIN1   | Surround Right         |
+|Right channel from SDIN1   | Surround Right         |
 |Left channel from SDIN2    | LFE                    |
-|right channel from SDIN2   | Center                 |
+|Right channel from SDIN2   | Center                 |
 
 The DAP can generate eight PWWs, but this equipment only use six and deliver them to six [TAS5152](datasheet/TAS5152.pdf) amplifiers from Texas Instruments.
 
