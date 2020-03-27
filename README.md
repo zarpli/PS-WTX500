@@ -133,7 +133,7 @@ You can also add an IR receiver :)
 
 <img src=/images/DSC_0763.JPG>
 
-# video
+# YouTube
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=8eDIVF7A_ak" target="_blank"><img src="http://img.youtube.com/vi/8eDIVF7A_ak/0.jpg" 
 alt="YouTube" width="400" border="10" /></a>
