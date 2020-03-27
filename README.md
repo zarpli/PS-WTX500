@@ -28,7 +28,7 @@ Disassembly and with a little reverse engineering, you find that the signals tha
 
 The ADCs deliver their work to the Pulsus PS9829B audio processor through the following connections:
 
-|PS9229B | ADC        |
+|PS9829B | ADC        |
 |--------|------------|
 |MSDIN0  |AK5384 SDTO1|
 |MSDIN1  |AK5384 SDTO2|
