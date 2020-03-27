@@ -1,4 +1,4 @@
-#define PWM_ON_OFF          0x00
+#define PWM_ON_OFF          0x00      // see Digital Audio Processor datasheet
 #define SRC_STATUS          0x01
 #define IN_CONTROL          0x02
 #define MASTER_VOL_CONTROL  0x10
@@ -49,9 +49,21 @@ digitalWrite(PDN, HIGH);            // Power-Up ADC
 Serial.begin(9600);
 
 // Input channel Mapping
+// Left channel from SDIN0	Front Left
+// Right channel from SDIN0	Front Right
+// Left channel from SDIN1	Surround Left
+// Right channel from SDIN1	Surround Right
+// Left channel from SDIN2	LFE
+// Right channel from SDIN2	Center
 write_ap(INPUT_CH_MAPPING2, 0b0111011001000101);
  
 // Internal processing channel linking to PWMs
+// PWM1	to RR
+// PWM2	to RL
+// PWM3	to SW
+// PWM4	to C
+// PWM5	to FR
+// PWM6	to FL
 write_ap(OUTPUT_CH_MAPPING1, 0b0100010100100011);
 write_ap(OUTPUT_CH_MAPPING2, 0b0110011100000001);
 
