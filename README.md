@@ -45,7 +45,7 @@ The mapping of signal inputs and physical connections is as follows:
 |Left channel from SDIN2    | LFE                    |
 |Right channel from SDIN2   | Center                 |
 
-The DAP can generate eight PWWs, but this equipment only use six and deliver them to six [TAS5152](datasheet/TAS5152.pdf) amplifiers from Texas Instruments.
+The DAP can generate eight PWMs, but this equipment only use six and deliver them to six [TAS5152](datasheet/TAS5152.pdf) amplifiers from Texas Instruments.
 
 The physical connections between the PWM's and the outputs to the speakers are as follows:
 
@@ -91,8 +91,8 @@ By tracking tracks and through-hole, the following connections of interest are o
 | Pin 15        | Encoder       | Pin 31        |               |
 | Pin 16        | EXT_MUTE      | Pin 32        | VDD           |
 
-P-ON: enables 30V, 5V and 3.3V power
-PDN: Reset of ADCs
+P-ON: enables 30V, 5V and 3.3V power.
+PDN: Reset of ADCs.
 
 The encoder is used to control the crossover.
 
