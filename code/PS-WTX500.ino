@@ -44,7 +44,7 @@ digitalWrite(SCK,LOW);
 
 digitalWrite(P_ON, HIGH);           // Enable power supply
 delay(500);
-digitalWrite(PDN, HIGH);            // Power-Up ADC
+digitalWrite(PDN, HIGH);            // The ADCs should be reset once by bringing PDN pin “L” after power-up
 
 Serial.begin(9600);
 
