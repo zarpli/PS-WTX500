@@ -127,7 +127,7 @@ Brain transplantation looks like this with the new connections:
 
 <p align="center"><img src=/images/DSC_0005.JPG></p>
 
-If you only want to use only two speakers and the subwoofer, *the PULSUS can do the sum of bass and send it to the subwoffer*, it works great. 
+If you only want to use two speakers and the subwoofer, *the PULSUS can do the sum of bass and send it to the subwoffer*, it works great. 
 
 You can also add an IR receiver :)
 
