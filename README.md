@@ -2,7 +2,7 @@
 
 Simple control of a Multi-channel Digital Audio Processor Pulsus PS9829B
 
-The Samsung PS-WTX500 subwoofer is part of a 5.1 audio system (HT-TX500) that includes a receiver with DVD player.
+The Samsung PS-WTX500 subwoofer is part of a 5.1 audio system ([HT-TX500](datasheet/HT-TX500_USER_MANUAL.pdf)) that includes a receiver with DVD player.
 
 
 <p align="center"><img src=/images/HT-TX500.jpeg></p>
