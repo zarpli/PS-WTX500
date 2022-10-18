@@ -11,6 +11,8 @@ The receiver does not have the sound amplifiers. The PS-WTX500 is who has six cl
 
 Medium and treble speakers (5 pieces) and the subwoofer are of acceptable quality. You could disconnect all the electronics and buy an amplifier and connect it to the speakers. But why not use the amplifiers already included in the subwoofer?
 
+This information is made to be able to control the amplifiers without the need of the console (receiver), using any device with a programmable serial port, especially an arduino :)
+
 <p align="center"><img src=/images/DSC_0040.JPG></p>
 
 # Hardware
